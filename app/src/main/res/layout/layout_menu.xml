@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="240dp"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/testYellow"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/head_portrait_style"
+            android:id="@+id/button"/>
+        <TextView
+            android:text="@string/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_alignTop="@+id/button"
+            android:layout_toEndOf="@+id/button"
+            android:layout_marginStart="31dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/testSilvery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="教室申请"
+            android:textSize="20sp"
+            android:textColor="@color/transparencyBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="101dp"
+            android:id="@+id/button_apply"
+            android:layout_alignParentEnd="true"
+            android:background="@color/transparency"/>
+
+        <Button
+            android:text="教室管理"
+            android:textSize="20sp"
+            android:textColor="@color/transparencyBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="17dp"
+            android:id="@+id/button_manage"
+            android:layout_below="@+id/button_apply"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/transparency"/>
+
+        <Button
+            android:text="教室首页"
+            android:textSize="20sp"
+            android:textColor="@color/transparencyBlack"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/button_home_page"
+            android:background="@color/transparency"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

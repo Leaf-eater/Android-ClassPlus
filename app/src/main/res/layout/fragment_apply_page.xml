@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/colorPrimary"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="申请时间："
+        style="@style/stander_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            style="@style/stander_text_view"
+            android:hint="start time"
+            android:gravity="center"
+            android:textColorHint="@color/trans_testSilvery"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_startTime"/>
+
+        <TextView
+            android:layout_weight="1.5"
+            android:text="TO"
+            style="@style/stander_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            style="@style/stander_text_view"
+            android:id="@+id/editText_endTime"
+            android:hint="end time"
+            android:gravity="center"
+            android:textColorHint="@color/trans_testSilvery"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="申请教室："
+            android:layout_weight="1"
+            style="@style/stander_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"/>
+
+        <EditText
+            style="@style/stander_text_view"
+            android:layout_weight="1"
+            android:hint="Class Name"
+            android:textColorHint="@color/trans_testSilvery"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText_className"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="申请理由:"
+        style="@style/stander_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/editText_applyReason"
+            style="@style/stander_text_view"
+            android:gravity="top"
+            android:hint="input the reason here"
+            android:textColorHint="@color/trans_testSilvery"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button_commit"
+            android:text="提交"
+            android:textColor="@color/testSilvery"
+            android:textSize="25sp"
+            android:background="@color/colorPrimary"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</LinearLayout>

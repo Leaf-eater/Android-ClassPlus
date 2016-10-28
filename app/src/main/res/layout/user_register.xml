@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/colorPrimary"
+              >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10.0dip" >
+        <Button
+            android:id="@+id/bt_return_to_logIn"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:paddingLeft="30dip"
+            android:background="@drawable/bt_login"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Register"
+            android:typeface="serif"
+            android:textSize="40dp"
+            android:textColor="#F1FBFB"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  UserName"
+            android:typeface="serif"
+            android:textColor="#F1FBFB"/>
+
+        <EditText
+            android:id="@+id/register_username"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="15.0dip"
+            android:drawablePadding="15.0dip"
+            android:ems="10"
+            android:hint="您未来的用户名"
+            android:inputType="text"
+            android:paddingBottom="2.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="2.0dip"
+            android:singleLine="true"
+            android:textColorHint="#ff999999"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  PhoneNumber"
+            android:typeface="serif"
+            android:textColor="#F1FBFB"/>
+
+        <EditText
+            android:id="@+id/register_PhoneNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="15.0dip"
+            android:drawablePadding="15.0dip"
+            android:ems="10"
+            android:hint="您的手机号码将作为您的唯一标识"
+            android:inputType="text"
+            android:paddingBottom="2.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="2.0dip"
+            android:singleLine="true"
+            android:textColorHint="#ff999999"
+            android:textSize="16.0sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Password"
+            android:typeface="serif"
+            android:textColor="#F1FBFB"/>
+
+        <EditText
+            android:id="@+id/register_passwd"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="15.0dip"
+            android:drawablePadding="15.0dip"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:paddingBottom="2.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="2.0dip"
+            android:singleLine="true"
+            android:textColorHint="#ff999999"
+            android:textSize="16.0sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Confirm Password"
+            android:typeface="serif"
+            android:textColor="#F1FBFB"/>
+
+        <EditText
+            android:id="@+id/reregister_passwd"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="15.0dip"
+            android:drawablePadding="15.0dip"
+            android:ems="10"
+            android:hint="请确认您的密码"
+            android:inputType="textPassword"
+            android:paddingBottom="2.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="2.0dip"
+            android:singleLine="true"
+            android:textColorHint="#ff999999"
+            android:textSize="16.0sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Student Number"
+            android:typeface="serif"
+            android:textColor="#F1FBFB"/>
+
+        <EditText
+            android:id="@+id/register_studentNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="15.0dip"
+            android:drawablePadding="15.0dip"
+            android:ems="10"
+            android:hint="请输入您的学号"
+            android:inputType="number"
+            android:paddingBottom="2.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingRight="15.0dip"
+            android:paddingTop="2.0dip"
+            android:singleLine="true"
+            android:textColorHint="#ff999999"
+            android:textSize="16.0sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Where you living?"
+            android:typeface="serif"
+            android:textColor="#F1FBFB"/>
+
+        <RadioGroup
+            android:paddingStart="10dp"
+            android:id="@+id/register_RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/register_select_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="校内"/>
+
+            <RadioButton
+                android:id="@+id/register_select_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鹏远"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/register_submit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:singleLine="true"
+            android:paddingLeft="30dip"
+            android:background="@drawable/bt_login"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

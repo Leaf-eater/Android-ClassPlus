@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a5dc9</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--#3F51B5-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="testYellow" >#FAC02E</color>
+    <color name="testBlack">#333331</color>
+    <color name="testSilvery">#E8E8E8</color>
+    <color name="trans_testSilvery">#B1E8E8E8</color>
+    <color name="testGray">#999999</color>
+    <color name="transparency">#00000000</color>
+    <color name="transparencyBlack">#ca000000</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classes">
+        <item>classOne</item>
+        <item>classTwo</item>
+        <item>classThree</item>
+        <item>classFour</item>
+    </string-array>
+
+    <string-array name="class_time">
+        <item>1\n2</item>
+        <item>3\n4</item>
+        <item>5\n6</item>
+        <item>7\n8</item>
+        <item>9\n10</item>
+    </string-array>
+</resources>

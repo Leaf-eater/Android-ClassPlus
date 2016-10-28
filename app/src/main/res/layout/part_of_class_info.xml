@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/colorPrimary"
+              android:layout_width="match_parent"
+              android:layout_height="150dp">
+
+    <TextView
+        android:id="@+id/textView_className"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="@color/testSilvery"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="G201"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView_TotalNum"
+            android:text="容纳：60"
+            android:textSize="18sp"
+            android:textColor="@color/testSilvery"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/textView_realNum"
+            android:text="实际:9"
+            android:textSize="18sp"
+            android:textColor="@color/testSilvery"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>
