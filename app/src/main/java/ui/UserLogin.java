@@ -176,7 +176,7 @@ public class UserLogin extends Activity implements View.OnClickListener {
 
             @Override
             public void onFailure(int i, Header[] headers, byte[] bytes, Throwable throwable) {
-                Toast.makeText(UserLogin.this, "failed"+i, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(UserLogin.this, "failed"+i, Toast.LENGTH_SHORT).show();
             }
         });
     }

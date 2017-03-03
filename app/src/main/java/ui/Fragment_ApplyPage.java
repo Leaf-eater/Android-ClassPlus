@@ -56,7 +56,7 @@ public class Fragment_ApplyPage extends Fragment{
 
                     @Override
                     public void onFailure(int i, Header[] headers, byte[] bytes, Throwable throwable) {
-                        Toast.makeText(getActivity(),"apply failed"+i,Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(getActivity(),"apply failed"+i,Toast.LENGTH_SHORT).show();
                     }
                 });
             }

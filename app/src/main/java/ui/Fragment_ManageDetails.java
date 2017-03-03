@@ -2,6 +2,7 @@ package ui;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,15 +50,18 @@ public class Fragment_ManageDetails extends Fragment implements View.OnClickList
 
     /**
      * 将数据进行解析并赋值给响应的控件
+     *data: {name=user123, endTime=16:00, startTime=14:00, className=G203, applyReason=play, uuid=A791BD65AC734BC6BA571A57C07BE4C9}
      * @param data ArrayList数组
      */
     private void analysisData(HashMap data) {
+        Log.i("data",data.toString());
         startTime.setText((String) data.get("startTime"));
         endTime.setText((String) data.get("endTime"));
-        applyPerson.setText((String) data.get("applyPerson"));
+        applyPerson.setText((String)data.get("name"));
         applyReason.setText((String) data.get("applyReason"));
-        applyClass.setText((String) data.get("applyClass"));
+        applyClass.setText((String) data.get("className"));
         uuid = (String) data.get("uuid");
+        Log.i("uuid", "uuid:" + uuid);
     }
 
     private void init(View rootView) {

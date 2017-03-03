@@ -5,6 +5,7 @@
               android:layout_height="match_parent">
     <include
         layout="@layout/part_of_class_info"/>
+
     <LinearLayout
         android:descendantFocusability="blocksDescendants"
         android:orientation="horizontal"
@@ -33,8 +34,6 @@
 
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>

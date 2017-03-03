@@ -151,7 +151,7 @@ public class UserRegister extends Activity{
 
                     @Override
                     public void onFailure(int i, Header[] headers, byte[] bytes, Throwable throwable) {
-                        Toast.makeText(UserRegister.this, "register failed : internet error", Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(UserRegister.this, "register failed : internet error", Toast.LENGTH_SHORT).show();
                         Log.i("register","int:"+i+"header"+ Arrays.toString(headers) +"bytes"+bytes);
                     }
                 });

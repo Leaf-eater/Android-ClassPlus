@@ -2,6 +2,7 @@ package com.yuhang.classplus;
 
 /**
  * Created by 宇航 on 2016/10/3.
+ *
  */
 
 public class Course {
