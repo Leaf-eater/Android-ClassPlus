@@ -20,4 +20,5 @@
 ### 技术简介
 1.使用DrawerLayout完成侧滑菜单功能<br>
 2.使用fragment完成不同功能模块的切换<br>
-3.使用android-async-http框架实现异步通信<br>
+3.使用优先队列处理申请请求<br>
+4.使用android-async-http框架实现异步通信<br>
